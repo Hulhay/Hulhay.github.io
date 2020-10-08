@@ -69,20 +69,30 @@
 
 <!-- Method --->
 <div id="method" class="container" style="padding-top:70px;">
-  <div class="row text-center">
-    <div class="col-sm">
-      <h2 style="text-transform:uppercase;">Method</h2>
-    </div>
-  </div>
-  <br>
   <div class="row">
-    <div class="col-sm">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="col-sm-4">
+      <figure>
+        <img src="assets/img/diagramAlir.JPG" width="100%">
+        <figcaption align="center">Flowchart of PAJABAT</figcaption>
+      </figure>
+    </div>
+    <div class="col">
+      <h2 style="text-transform:uppercase; text-align: right">Method</h2>
+      <p align="justify">This software is designed to be able to do numerical calculations of the physical value of a rock automatically with an easy-to-use UI that makes it easier for users to operate it. The work steps of this software are shown in figure.</p>
+      <ol>
+        <li>Tortuosity Measurement</li>
+        <p>Tortuosity measurement works by calculating the connected path between one end of the axis to the other then divided by distance.</p>
+        <li>Porosity Measurement</li>
+        <p>Porosity can be calculated by comparing the pore area volume with the total rock valume.</p>
+        <li>Specific Surface Area Measurement</li>
+        <p>To calculate a specific path of the porous media which is still in the form of omages must be converted into binary form, then we calculate the specific surface area of the sample.</p>
+        <li>Average Pore Measurement</li>
+        <p>The calculation of average pore is done by using image processing functios that are quite commonly used by researchers so that they are easy to implement.</p>
+        <li>Permeability Measurement</li>
+        <p>Permeability measurement can be done by using Kozeny-Carman equation.</p>
+        <img src="assets/img/kozenyCarmanEq.jpg" width="20%" style="float: left">
+        <p>Where &theta; is porosity, &tau; is tortuosity, S is specific surface area and &beta; is a dimensionless constant that depends on the geometry of the capilary tube cross section. In this case, &beta;=2.</p>
+      </ol>
     </div>
   </div>
 </div>
