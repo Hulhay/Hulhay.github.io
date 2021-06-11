@@ -1,0 +1,57 @@
+body {
+    position: relative; 
+}
+
+.display-4 {
+	padding-top: 50px;
+	color: #FFA61C;
+	font-weight: bolder;
+}
+
+.font-custom {
+	font-weight: bolder;
+}
+
+.nav-link {
+	color: black;
+	font-weight: bold
+}
+
+.nav-link:hover {
+	color: #FFA61C;
+}
+
+.more {
+	display: none;
+}
+
+.card-shadow {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 1);
+}
+
+.ikon-profil {
+	padding-right: 5px;
+}
+
+.year-exp {
+	width: 100px;
+}
+
+.table-font {
+	text-align: justify;
+}
+
+.header-pengalaman, .header-pendidikan {
+	color: #FFA61C;
+	font-weight: bolder;
+}
+
+.header-pendidikan {
+	text-align: right;
+}
+
+#footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #E8ECEF;
+}
