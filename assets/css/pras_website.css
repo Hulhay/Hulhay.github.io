@@ -34,14 +34,10 @@ body {
 }
 
 .year-exp {
-	width: 100px;
+	font-weight: bold;
 }
 
-.table-font {
-	text-align: justify;
-}
-
-.header-pengalaman, .header-pendidikan {
+.header-tentang {
 	color: #FFA61C;
 	font-weight: bolder;
 }
